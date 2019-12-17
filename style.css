@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+input {
+    visibility:hidden;
+  }
+  .district{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border:1px solid gray;
+    text-transform: capitalize;
+    background-color:gray;
+  }
+  .district span{
+    line-height: 200px;
+  }
+  .container{
+    position: absolute;
+    top: -50px;
+    left:100px;
+  }
+  #Kunduz{
+    width:300px;
+    height:250px;
+    border-radius:0;
+    top: 280px;
+    left: 485px;
+    border:0;
+  }
+  #QalaQazi{
+    top: 200px;
+    left: 370px;
+  }
+  #ChaharDara{
+    top: 400px;
+    left: 370px;
+  }
+  #AliAbad{
+    top: 480px;
+    left: 550px;
+  }
+  #KhanAbad{
+    top: 410px;
+    left: 730px;
+  }
+  #Archi{
+    top: 230px;
+    left: 720px;
+  }
+  #ImamSahib{
+    top: 128px;
+    left: 550px;
+  }
+  .blue {
+    background-color:blue;
+  }
+  .red {
+    background-color:red;
+  }
+  .green {
+    background-color:green;
+  }
+  .img {
+      position: relative;
+      right:100px;
+      top:50px;
+      z-index: -1;
+      width:500px;
+  }
+  .sidebar {
+      position: fixed;
+      right:0;
+      bottom:0;
+      top:0;
+      height:auto;
+      width:400px;
+      padding:20px;
+      background: lightgray;
+      color:black !important;
+  }
+  p {
+      padding-bottom:30px;
+  }
+  br {
+      padding-bottom:20px;
+  }
